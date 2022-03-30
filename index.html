@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whack A Mole!</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Whack-a-mole!</h1>
+    <div class="score-wrapper">
+      <p class="scrore-label">Score:</p>
+      <p id="score">0</p>
+    </div>
+    <div class="result-wrapper">
+      <p class="game-result"></p>
+    </div>
+    <div class="button-wrapper">
+      <button id="btn-start" onclick="startGame()">Start</button>
+    </div>
+    <div class="hole-container">
+      <div class="hole"></div>
+      <div class="hole"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
